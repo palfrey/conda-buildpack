@@ -11,6 +11,8 @@ fi
 if [ -f conda-requirements.txt ]; then
     puts-step "Installing dependencies using Conda"
     conda install --file conda-requirements.txt --yes | indent
+    puts-step "Installing scikit-audiolab manually"
+    conda install --channel https://conda.binstar.org/weiyan scikit-audiolab -y | indent
 fi
 
 if [ -f requirements.txt ]; then
