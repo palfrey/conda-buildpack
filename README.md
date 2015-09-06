@@ -1,7 +1,7 @@
-Conda Buildpack
-===============
+Conda Buildpack with Scikit Audiolab
+====================================
 
-This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) for [Conda](http://conda.pydata.org/), the Python distribution for scientific computing by Continuum Analytics.
+This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks) for [Conda](http://conda.pydata.org/), the Python distribution for scientific computing by Continuum Analytics with scikit-audiolab (from https://binstar.org/weiyan/scikit-audiolab) added automatically
 
 This buildpack enables the installation of binary packages through the
 open source [conda](http://conda.pydata.org/) application.  Conda is
